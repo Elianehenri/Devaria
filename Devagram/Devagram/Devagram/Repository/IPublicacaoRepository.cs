@@ -9,7 +9,8 @@ namespace Devagram.Repository
 <<<<<<< HEAD
         List<PublicacaoFeedRespostaDto> GetPublicacoesFeed(int idUsuario);
         List<PublicacaoFeedRespostaDto> GetPublicacoesFeedUsuario(int idUsuario);
-=======
+
+
        
 >>>>>>> 34874c067c4e500f51dbf02ceefb1ea516dfd0bd
     }
