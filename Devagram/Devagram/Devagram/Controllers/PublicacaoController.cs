@@ -1,7 +1,6 @@
 ﻿using Devagram.Dtos;
 using Devagram.Models;
 using Devagram.Repository;
-using Devagram.Repository.Impl;
 using Devagram.Services;
 using Microsoft.AspNetCore.Mvc;
 

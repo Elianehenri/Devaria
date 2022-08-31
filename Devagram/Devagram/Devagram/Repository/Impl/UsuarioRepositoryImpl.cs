@@ -16,6 +16,10 @@ namespace Devagram.Repository.Impl
             _context.SaveChanges();
         }
 
+        public List<Usuario> GetUsuarioNome(string nome)
+        {
+            return _context.Usuarios.Where(u => u.Nome.Contains(nome)).ToList();
+        }
         public Usuario GetUsuarioPorId(int id)
         {
             return _context.Usuarios.FirstOrDefault(u => u.Id == id);
